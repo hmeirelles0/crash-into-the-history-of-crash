@@ -1,0 +1,300 @@
+:root {
+    --cor1: #021226;
+    --cor2: #044D8C;
+    --cor3: #F2CB05;
+    --cor4: #F2B705;
+    --cor5: #BF3A0A;
+    --cor6: #0773d1;
+    --cor8: #ff5e00;
+}
+
+@font-face {
+    font-family: 'crash-font';
+    src: url(assets/fontes/Honk/Honk-Regular-VariableFont_MORF\,SHLN.ttf) format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'game-font';
+    src: url(assets/fontes/Silkscreen/Silkscreen-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    background-color: var(--cor5);
+    min-width: 459px;
+    text-align: justify;
+}
+
+header {
+    height: 100%;
+    background-image: linear-gradient(var(--cor1) 70%, var(--cor2));
+    color: var(--cor3);
+    padding: 20px;
+    box-shadow: 0px 20px 9px 18px rgba(0, 0, 0, 0.19);
+    min-width: 413px;
+}
+
+
+header h1 {
+    font-family: "crash-font";
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 2px 3px 3px var(--cor6);
+}
+
+#copy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+}
+
+#imgs-header {
+    display: flex;
+    justify-content: center;
+}
+
+#first-img-header {
+    padding-right: 10px;
+}
+
+#second-img-header {
+    padding-left: 10px;
+}
+
+header p {
+    font-family: "game-font";
+    text-align: center;
+    text-shadow: 3px 1px 4px black;
+    width: 400px;
+    margin: auto;
+}
+
+header p>span {
+    font-weight: bold;
+}
+
+menu {
+    padding: 0px;
+    margin: 0%;
+    min-width: 453px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-family: "game-font";
+    background-color: var(--cor2);
+    box-shadow: -1px 7px 8px 0px rgba(0, 0, 0, 0.465);
+    padding: 0px 0px 0px 10px;
+}
+
+.nav {
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.nav:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+    background-color: var(--cor5);
+}
+
+#audio {
+    display: flex;
+    padding: 0px 5px 5px 0px;
+}
+
+i {
+    border-radius: 4px;
+    padding: 5px;
+    color: var(--cor5);
+    transition: 0.2s;  
+    user-select: none;
+}
+
+i:hover {
+    background-color: #BF3A0A;
+    color: var(--cor3);
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.513);
+    margin: auto;
+    padding: 15px;
+    min-width: 423px;
+}
+
+.main {
+    background-color: white;
+    max-width: 800px;
+    min-width: 423px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.513);
+    margin: auto;
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+section h2 {
+    text-shadow: -2px 2px 0px black;
+}
+
+h3 {
+    font-family: "crash-font";
+    text-transform: uppercase;
+    background-image: linear-gradient(90deg, var(--cor6), var(--cor5) );
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+section > p {
+    text-indent: 40px;
+}
+
+article > p {
+    text-indent: 40px;
+}
+
+.font {
+    font-family: 'crash-font';
+    color: var(--cor5);
+}
+
+
+strong {
+    color: var(--cor6);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+strong > a {
+    color: var(--cor6);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+strong > a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+#before-after {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;   
+}
+
+#crash-font {
+    width: 100%;
+    
+}
+
+#videodiv {
+    background-color: white;
+    /* width: 423px; */
+    max-width: 810px;
+    min-width: 423px;
+    margin: auto;
+    padding: 10px;
+}
+
+#negrito strong {
+    color: var(--cor8);
+}
+
+#negrito a {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#negrito a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    height: 400px;
+    max-width: 753px;
+    min-width: 379px;
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.513);
+    border-radius: 20px;
+    margin: auto;
+    border-width: 20px 39px;
+    border-style: groove;
+    border-color: var(--cor6);
+    /* border-color: #0772cf; */
+}
+
+div.title {
+    background-color: var(--cor5);
+    color: var(--cor4);
+    font-family: "game-font";
+    padding: 7px;
+    max-width: 786px;
+    min-width: 410px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: inset -2px 1px 12px 1px rgba(0, 0, 0, 0.286)
+}
+
+div > article {
+    color: var(--cor3);
+    background-color: #0773d1;
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.286);
+}
+
+ul {
+    list-style-image: url(assets/imagens/wumpa-fruit-24.png);
+}
+
+#article-link {
+    color: var(--cor1);
+}
+
+#article-link:hover {
+    color: #ff9500;
+}
+
+#feedback {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#feedback:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #021226;
+    color: white;
+    text-align: center;
+    min-width: 455px;
+}
+
+footer > p {
+    margin-bottom: 0px;
+    padding: 10px;
+}

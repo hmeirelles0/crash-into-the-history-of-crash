@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Henrique Ferraz">
+    <meta name="keywords" content="sites, web, desenvolvimento">
+    <title>Curiosidades Crash&copy;</title>
+    <link rel="shortcut icon" href="assets/imagens/wumpa-fruit-24.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+<body>
+    <header>
+        <div id="imgs-header">
+            <picture id="first-img-header">
+                <img src="assets/imagens/crate-full.png" alt="caixa-clássica-dos-jogos-do-crash">
+            </picture>
+            <h1>CURIOSIDADES CRASH BANDICOOT<span id="copy"><sup>&copy;</sup></span></h1>
+            <picture id="second-img-header">
+                <img src="assets/imagens/crate-full-flip.png" alt="caixa-clássica-dos-jogos-do-crash">
+            </picture>
+        </div>
+        <p>Tudo aquilo que você sempre quis saber sobre o <span>mais <s>louco</s> amado mascote da SONY<sup>&copy;</sup></span>, em um único lugar</p>
+        <br>
+    </header>
+    <menu>
+        <nav>
+            <div>
+                <a class="nav" href="index.html" target="_self" rel="next">Home</a>
+                <a class="nav" href="#designs" target="_self" rel="next">Designs</a>
+                <a class="nav" href="#videodiv" target="_self" rel="next">Trailer</a>
+                <a class="nav" href="./card-de-apresentacao.html" target="_blank" rel="external">Fale Conosco</a>
+            </div>
+            <div id="audio">
+                <audio id="player" src="assets/musica/crash-main-theme.mp4" loop></audio>
+                <p style="margin: 0px 10px; color: white; font-size: small; padding: 5px 0px 0px 0px;">
+                    <span style="text-shadow: 0px 0px 6px white;">&#x1F3B5;</span> "Crash Bandicoot N. Sane Trilogy: N. Sanity Beach OST"
+                </p>
+                <div>
+                    <i style=" font-size: larger;" class="bi bi-play-fill" onclick="document.getElementById('player').play()"></i>
+                    <i style=" font-size: larger;" class="bi bi-pause-fill" onclick="document.getElementById('player').pause()"></i>
+                    <i style=" font-size: larger;" class="bi bi-volume-down-fill" onclick="document.getElementById('player').volume -= 0.1"></i>
+                    <i style=" font-size: larger;" class="bi bi-volume-up-fill" onclick="document.getElementById('player').volume += 0.1"></i>
+                </div>
+            </div>
+        </nav>
+    </menu>
+    <main>
+        <section>
+            <h2 class="font">História do Crash</h2>
+            <p>Se chegou aqui, você provavelmente sabe que <strong>Crash Bandicoot</strong>, o mascote marsupial com apetite insaciável pelas frutinhas Wumpa <span><img src="assets/imagens/wumpa-fruit-17.png" alt="ícone-da-fruta-wumpa"></span> criado pela <strong><em>Naughty Dog&copy;</em></strong> é atualmente um dos mais infames (e insanos) protagonistas de jogos de plataforma. Mas tavez você não saiba que este simpático mascote tem uma história tão conturbada quanto a mente de seu maior oponente? Pois acompanhe esse artigo para aprender muita coisa sobre esse Bandicoot, desde os <strong>obstáculos</strong> para sua concepção até suas raízes inspiradas em <strong>criaturas da vida real</strong> e <strong>personagens de empresas rivais</strong>.</p>
+        </section>
+        
+        <section>
+            <article>
+                <h3 id="designs" class="font">A PRIMEIRA VERSÃO</h3>
+                <p>O primeiro conceito do querido mascote surgiu em meados dos anos 90 e veio a partir de uma viagem turistica pela Austrália entre 2 de seus desenvolvedores, que naquele momento, após flertarem suficientemente com a ideia de ter como arcabouço de seu personagem as características malucas do <strong>Diabo da Tasmânia</strong> dos <em><strong>Looney Tunes<sup>®</sup></strong></em>, já tinham em mente o animal cuja aparência o mascote teria como base: o <strong><a href="https://pt.wikipedia.org/wiki/Vombate" target="_blank" rel="external"><abbr style="text-decoration: none;" title="Wombat">Vombate</abbr> &#x1F517;</a></strong>.</p>
+                <div class="container">
+                    <picture>
+                        <source media="(max-width: 800px)" srcset="./assets/imagens/wombat-pq.png" type="image/png">
+                        <img src="assets/imagens/wombat.png" alt="Design original do Crash Bandicoot inspirado em um Vombate, com um porte mais robusto, uma larga boca que vai do seu rosto até a base de sua barriga e olhos pirados cartunescos similares ao diabo da Tasmânia">
+                    </picture>
+                </div>
+                <p>Essa primeira versão bizarra foi batizada de alguns nomes, nenhum dos quais foi pra frente (e ainda bem), sendo o principal <strong>Willy the Wombat</strong>.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3 class="font">SURGE UM NOVO MASCOTE</h3>
+                <p>A ideia de ter um mascote foi amadurecendo e veio à tona com a necessidade da <strong>PlayStation<sup>®</sup></strong> de rivalizar com os infames <strong>Mario</strong> (da gigante japonesa <strong>Nintendo<sup>®</sup></strong>) e <strong>Sonic</strong> (da grande <strong>SEGA<sup>®</sup></strong>). Contudo, limitações da tecnologia da época conferiram ao mascote em desenvolvimento algumas de suas características únicas que o tornaram a figura caricata e facilmente identificável que é atualmente: agora tendo como inspiração o <strong><a href="https://pt.wikipedia.org/wiki/Peramelemorphia" target="_blank" rel="external"><abbr title="marsupial">Bandicoot</abbr></a> &#x1F517;</strong>, nasceu <strong>Crash</strong>, o cartunesco marsupial de cores vibrantes que o destacariam dos cenários explorados nos games (a cor laranja foi a razão da ausência de níveis de lava em seus primeiros jogos) e sem pescoço, para que não houvessem quebras e bugs na textura do personagem enxuto.</p>
+                <div class="container">
+                    <picture>
+                        <source media="(max-width: 800px)" srcset="./assets/imagens/the-first-appearance-of-crash-bandicoot-pq.jpg" type="image/jpg">
+                        <img src="assets/imagens/the-first-appearance-of-crash-bandicoot-full.jpg" alt="Imagem mostrando antes e depois do design do Crash Bandicoot">
+                    </picture>
+                </div>
+                <br>
+                <div style="display: flex; text-align: center; justify-content: center;">
+                    <q>
+                        <strong>—WOOOAAH!</strong>
+                    </q>
+                    <p>
+                        Crash Bandicoot, 1996 - hoje
+                    </p>
+                </div>
+                <br>
+                <p>Este design sofreu pequenas mudanças com cada novo jogo figurando o herói, mas sempre buscando manter a essência do que o torna o tão adorado bandicoot maluco.</p>
+                <div>
+                    <div class="container">
+                        <picture>
+                            <source media="(max-width: 800px)" srcset="./assets/imagens/crash-along-the-years-pq.png" type="image/png">
+                            <img src="assets/imagens/crash-along-the-years-full.png" alt="Imagem mostrando os diferentes designs de crash ao longo dos anos">
+                        </picture>
+                    </div>
+                </div>
+                <p>A intenção de manter essa atmosfera divertida e maluca em torno do protagonista acabou transbordando também para os designs de inimigos e cenários do último jogo lançado da franquia, o <strong>Crash Bandicoot 4: It's About Time<sup>&copy;</sup></strong>, cujo <trailer>trailer</trailer> dublado pode ser conferido abaixo: </p>
+            </article>
+        </section>
+    </main>
+    <div id="videodiv">
+        <h3>Trailer de Crash Bandicoot 4: It's about time!</h3>
+        <aside>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7-IwwvIrawI?si=mLjdg5ua06JlCOsH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
+        </aside>
+    </div>
+    <div class="main">
+        <div class="title">E tem mais???</div>
+        <article id="negrito">
+            <p>Uma novidade introduzida nesta última entrada é que nosso herói conta com um elenco de apoio vasto, que não só o ajudará nesta nova aventura, como também serão <strong>personagens jogáveis</strong>!
+            </p>
+            <p>Teremos:</p>
+            <ul>
+                    <li><strong>Coco Bandicoot</strong>, a irmã engenhosa de Crash;</li>
+                    <li> <strong>Doutor Neo Cortex!</strong> O gênio louco que antagonizava nosso querido bandicoot vai se tornar um aliado improvável nesta jornada...</li>
+                    <li><strong>Tawna!</strong> A ex-namorada de Crash agora se mostra com novas habilidades, estilo e um corte de cabelo radical!</li>
+                    <li><strong>Dingodile??</strong> Mas... Como?</li>
+            </ul>
+            <picture>
+                <source media="(max-width: 800px)" srcset="./assets/imagens/Crash-Bandicoot-4-Its-About-Time-Playable-Characters-pq.jpg" type="image/jpg">
+                <img src="assets/imagens/Crash-Bandicoot-4-Its-About-Time-Playable-Characters-full.jpg" alt="Imagem mostrando 4 personagens jogáveis de Crash Bandicoot 4: It's about time, da esquerda para a direita: Tawna Bandicoot, Dingodile, Neo Cortex e Crash">
+            </picture>
+            <p>Acesse aqui a página na <a href="https://store.steampowered.com/app/1378990/Crash_Bandicoot_4_Its_About_Time/" target="_blank" rel="external"><abbr title="Link Externo"><strong>Steam</strong></abbr></a>&#x1F517; para colocar suas mãos no pescoço do Cra... digo, em um dos jogos de plataforma mais engajantes da atualidade!</p>
+        </article>
+        <p style="text-indent: 40px;">Então é isso! Espero que você tenha gostado do nosso artigo com essas curiosidades sobre o <strong>Crash</strong> e seu carisma inigualável. <a href="card-de-apresentacao.html" target="_blank" rel="next" id="feedback"><strong>Considere dar um feedback, será muito bem-vindo! &#x1F517;</strong></a></p>
+    </div>
+    <br>
+    <footer>
+        <p><em>Site criado por</em> <strong style="color: white;">Henrique Ferraz</strong></p>
+    </footer>
+</body>
+</html>

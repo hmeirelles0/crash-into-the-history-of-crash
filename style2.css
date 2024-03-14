@@ -1,0 +1,86 @@
+* {
+    margin: auto;
+    text-align: center;
+    font-family: "game-font";
+}
+
+@font-face {
+    font-family: 'game-font';
+    src: url(assets/fontes/Silkscreen/Silkscreen-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+:root {
+    --cor1: #add8e6;
+    --cor2: #0A66C2;
+    --cor3: #ffffff;
+    --cor4: #ffa500;
+}
+
+
+body {
+    height: 100%;
+    background-color: var(--cor1);
+}
+
+header {
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.249);
+    margin: 0px 0px 1px 0px;
+}
+
+h1 {
+    color: #FFC83D;
+    background-image: linear-gradient(var(--cor2)30%, var(--cor1), var(--cor3));
+    text-shadow: 3px 3px 0px var(--cor2);
+}
+
+main {
+    max-width: 800px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.237);
+}
+
+#welcome {
+    font-size: x-large;
+    text-shadow: 3px 3px 0px var(--cor4);
+}
+
+strong {
+    color: blue;
+}
+
+.destaque {
+    background-color: white;
+}
+
+mark {
+    background-color: var(--cor2);
+    color: var(--cor4);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+ul {
+    /* background-color: white; */
+    /* margin: 30px 0px 0px 0px; */
+    columns: 3;
+    display: flex;
+    padding: 40px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#rodape {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-image: linear-gradient(var(--cor1), var(--cor2));
+}
